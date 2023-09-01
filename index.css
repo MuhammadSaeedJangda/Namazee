@@ -1,0 +1,513 @@
+/* Increase the navbar height */
+.navbar {
+  padding-top: 20px; /* Adjust the value to increase/decrease the height */
+  padding-bottom: 20px; /* Adjust the value to increase/decrease the height */
+}
+
+.bg-custom {
+  background: linear-gradient(to bottom, #29626c, #6dc3bd);
+}
+
+/* Adjust the navbar brand alignment */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  height: 100%; /* Maintain full height of navbar */
+}
+
+.navbar-brand img {
+  margin-right: 10px; /* Adjust as needed */
+  height: 70px; /* Adjust as needed */
+  width: auto;
+}
+
+h3 {
+  margin: 0px 2px 0; /* Reset default margin */
+  font-size: 2rem;
+  color: white;
+}
+
+/* Style the navbar links to be horizontal */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  list-style: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  flex-direction: row;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px; /* Adjust spacing between items */
+  margin-left: 0;
+}
+
+.navbar-nav .nav-link {
+  color: white; /* Set the font color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Add transition effect */
+  margin-right: 40px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000000; /* Change color on hover to a contrasting color */
+}
+
+.navbar-nav .nav-link h4 {
+  color: white;
+  font-size: 1rem;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* Styling for the slider section */
+#slider {
+  background: linear-gradient(#0c3044, #82e7dd);
+  color: white;
+  padding: 40px 0 10px 0; /* Adjust the top and bottom padding as needed */
+  margin-top: 50px; /* Add margin to separate from the navbar */
+  padding-right: auto;
+  padding-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#slider .block {
+  margin-top: 95px;
+  padding-bottom: 75px;
+}
+
+#slider .block h2 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin: 0px;
+  font-size: 36px;
+}
+
+.sub-slider-text {
+  margin: 0px;
+  font-size: 36px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  line-height: 43px;
+}
+
+.slider-p {
+  margin: 0px;
+  color: #fff;
+  font-size: 14px;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.edit-button-1:hover {
+  background: none;
+  color: #0c3044;
+  border: 3px solid #0c3044;
+}
+
+.edit-button-1 {
+  background: none;
+  border: 3px solid #fff;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 8px 31px;
+  display: block;
+  overflow: hidden;
+  margin-top: 29px;
+}
+
+.phone-image-container {
+  text-align: center; /* Center the image horizontally */
+  margin-top: 4px; /* Adjust as needed to separate from the button */
+}
+
+.phone-image {
+  max-width: 60%;
+}
+
+.col-md-3 {
+  width: 25%;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*CONTENT 01 START HERE*/
+
+#contant-1 {
+  background: #f2f9fe;
+  padding: 80px 0px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#contant-1 .block-right {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.contant-1-text-area {
+  padding-top: 80px;
+}
+
+.contant-1-head:after {
+  background: #0c3044;
+  content: "";
+  height: 2px;
+  position: absolute;
+  width: 102px;
+}
+
+.contant-1-head h1 {
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #0c3044;
+}
+
+.contant-1-text {
+  padding-top: 40px;
+}
+
+.contant-1-text h2 {
+  color: #0c3044;
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  padding-bottom: 25px;
+}
+
+.contant-1-text p {
+  color: #abb2b4;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.edit-button-2:hover {
+  background: none;
+  color: #0c3044;
+  border: 3px solid #0c3044;
+}
+
+.edit-button-2 {
+  background: linear-gradient(to bottom, #29626c, #6dc3bd);
+  border: 3px solid ;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 8px 31px;
+  display: block;
+  overflow: hidden;
+  margin-top: 29px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*CONTENT 02 START HERE*/
+
+#content-2 {
+  background: #fff;
+  padding: 80px 0px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.contant-1-text-area {
+  padding-top: 80px;
+}
+
+.contant-1-head h1 {
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #0c3044;
+}
+
+.contant-1-head:after {
+  background: #0c3044;
+  content: "";
+  height: 2px;
+  position: absolute;
+  width: 102px;
+}
+
+.contant-1-text {
+  padding-top: 40px;
+}
+
+.contant-1-text h2 {
+  color: #0c3044;
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  padding-bottom: 25px;
+}
+
+.contant-1-text p {
+  color: #abb2b4;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+}
+
+#content-2 .block-right {
+  text-align: center;
+}
+
+.edit-button-3:hover {
+  background: none;
+  color: #0c3044;
+  border: 3px solid #0c3044;
+}
+
+.edit-button-3 {
+  background: linear-gradient(to bottom, #29626c, #6dc3bd);
+  border: 3px solid ;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 8px 31px;
+  display: block;
+  overflow: hidden;
+  margin-top: 29px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*CONTENT 03 START HERE*/
+
+#contant-3 {
+  background: #f2f9fe;
+  padding: 80px 0px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.contant-3-text-area {
+  padding-top: 102px;
+}
+
+.contant-3-header h1 {
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #5dca88;
+}
+
+.contant-3-header:after {
+  background: #949c9c;
+  content: "";
+  height: 2px;
+  position: absolute;
+  width: 102px;
+}
+
+.contant-3-text {
+  padding-top: 40px;
+}
+
+.contant-3-text h2 {
+  color: #8c9494;
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  padding-bottom: 25px;
+}
+
+.edit-button-4:hover {
+  background: none;
+  color: #0c3044;
+  border: 3px solid #0c3044;
+}
+
+.edit-button-4 {
+  background: linear-gradient(to bottom, #29626c, #6dc3bd);
+  border: 3px solid ;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 8px 31px;
+  display: block;
+  overflow: hidden;
+  margin-top: 29px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*Footer START HERE*/
+
+#footer {
+  background: linear-gradient(to bottom, #29626c, #6dc3bd);
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.footer-contant h3 {
+  color: #ffffff;
+  font-size: 29px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+.social-icon a {
+  margin-right: 10px;
+  display: inline-block; /* Add this line to make icons display properly */
+}
+
+.social-icon a i {
+  border-radius: 100%;
+  color: #ffffff;
+  font-size: 30px;
+  height: 42px;
+  width: 42px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.support-link {
+  padding-top: 26px;
+}
+
+/* Add this CSS to make the list items display in a row */
+.support-link ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Adjust as needed */
+  list-style-type: none;
+}
+
+.support-link li {
+  margin-right: 40px;
+}
+
+.support-link a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Media Querry For Mobile */
+@media (max-width: 576px) {
+  .navbar-brand img {
+    margin-right: 10px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    width: auto;
+  }
+
+  h3 {
+    margin: 0px 2px 0; /* Reset default margin */
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  /* Style the navbar links to be horizontal */
+  .navbar-nav {
+    display: flex;
+    margin: 0 -25px -10px 0; /* Remove default margin */
+    flex-direction: row;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: -2px; /* Adjust spacing between items */
+  }
+
+  .navbar-nav .nav-link {
+    transition: color 0.3s; /* Add transition effect */
+    margin-right: 26px;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #000000; /* Change color on hover to a contrasting color */
+  }
+
+  .navbar-nav .nav-link h4 {
+    font-size: 1rem;
+  }
+}
